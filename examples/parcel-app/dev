@@ -1,0 +1,6 @@
+#!/bin/bash
+
+pushd ../..
+yarn transpile
+popd
+../../node_modules/.bin/parcel index.html
